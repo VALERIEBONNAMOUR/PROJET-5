@@ -73,6 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
         updateImage();
     });
  
-    createDots();
-    updateImage();
+    function init() {
+        createDots();
+        updateImage();
+    }
+    
+    init();
+
 });
